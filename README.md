@@ -20,3 +20,15 @@ Please see the `DIAGRAM.md` file for a visual representation of the workflow. Th
    ```bash
    python -m venv venv
    source venv/Scripts/activate
+
+3. Install the required dependencies:
+
+pip install openai==0.28 python-dotenv
+
+4. Create a .env file in the root directory and add your OpenAI API key:
+
+OPENAI_API_KEY=sk-your_api_key_here
+
+5.  Run the application:
+
+python main.py
